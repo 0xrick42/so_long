@@ -1,0 +1,29 @@
+==126179== Memcheck, a memory error detector
+==126179== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==126179== Using Valgrind-3.22.0-bd4db67b1d-20231031 and LibVEX; rerun with -h for copyright info
+==126179== Command: ./so_long maps/level1.ber
+==126179== Parent PID: 106432
+==126179== 
+--126179-- 
+--126179-- Valgrind options:
+--126179--    --leak-check=full
+--126179--    --show-leak-kinds=all
+--126179--    --track-origins=yes
+--126179--    --verbose
+--126179--    --suppressions=mlx.supp
+--126179--    --log-file=valgrind-out.txt
+--126179-- Contents of /proc/version:
+--126179--   Linux version 6.8.0-48-generic (buildd@lcy02-amd64-010) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.2.0-23ubuntu4) 13.2.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #48-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep 27 14:04:52 UTC 2024
+--126179-- 
+--126179-- Arch and hwcaps: AMD64, LittleEndian, amd64-cx16-lzcnt-rdtscp-sse3-ssse3-avx-avx2-bmi-f16c-rdrand-rdseed
+--126179-- Page sizes: currently 4096, max supported 4096
+--126179-- Valgrind library directory: /usr/libexec/valgrind
+--126179-- Reading syms from /home/rick/Documents/42/projects/so_long/so_long/so_long
+--126179-- Reading syms from /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+--126179--   Considering /usr/lib/debug/.build-id/35/3e1b6cb0eebc08cf3ff812eae8a51b4efd684e.debug ..
+--126179--   .. build-id is valid
+--126179-- Reading syms from /usr/libexec/valgrind/memcheck-amd64-linux
+--126179--    object doesn't have a dynamic symbol table
+--126179-- Scheduler: using generic scheduler lock implementation.
+--126179-- Reading suppressions file: mlx.supp
+==126179== FATAL: can't open suppressions file "mlx.supp"

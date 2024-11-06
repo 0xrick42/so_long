@@ -1,0 +1,47 @@
+/* XPM */
+static char *rick_front[] = {
+/* columns rows colors chars-per-pixel */
+"32 32 9 1",
+"  c None",
+". c #000000", /* black outline */
+"b c #FFD5B0", /* skin tone */
+"h c #B4D4E4", /* hair */
+"g c #FF69B4", /* pink coat */
+"l c #4169E1", /* blue shirt */
+"w c #FFFFFF", /* white details */
+"s c #ADD8E6", /* sunglasses */
+"p c #FF1493", /* sunglasses pink */
+/* pixels */
+"            hhhhhhh             ",
+"          hhhhhhhhhh           ",
+"         hhhhhhhhhhh           ",
+"        hhhhhhhhhhhh           ",
+"       hhhhhhhhhhhhh           ",
+"      hhhhhhhhhhhhhh           ",
+"     hhhhhhhhhhhhhhh           ",
+"    bbbbbbbbbbbbbbbb           ",
+"   bbbbbbbbbbbbbbbbb           ",
+"  bbbbsssssssssbbbbb           ",
+"  bbbspppppppppsbbbbb          ",
+"  bbbsssssssssssbbbbb          ",
+"  bbbbbbbbbbbbbbbbbb           ",
+"   bbbbbbbbbbbbbbbb            ",
+"    gggggllllgggggg            ",
+"    gggggllllgggggg            ",
+"    gggggllllgggggg            ",
+"    gggggllllgggggg            ",
+"    gggggllllgggggg            ",
+"    gggggllllgggggg            ",
+"    gggggllllgggggg            ",
+"    gggggllllgggggg            ",
+"    gggggllllgggggg            ",
+"    gggggllllgggggg            ",
+"    gggggllllgggggg            ",
+"    gggggllllgggggg            ",
+"     ggggllllggggg             ",
+"     ggggllllggggg             ",
+"      gggllllgggg              ",
+"      gggllllgggg              ",
+"       ggllllggg               ",
+"       ggllllggg               "
+};
